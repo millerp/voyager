@@ -230,7 +230,7 @@ class VoyagerServiceProvider extends ServiceProvider
 
         $publishable = [
             'voyager_assets' => [
-                "{$publishablePath}/assets/" => public_path(config('voyager.assets_path')),
+                "{$publishablePath}/assets/" => public_path(config('voyager.assets.path')),
             ],
             'migrations' => [
                 "{$publishablePath}/database/migrations/" => database_path('migrations'),

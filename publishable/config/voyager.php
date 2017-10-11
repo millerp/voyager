@@ -56,7 +56,7 @@ return [
 
     'assets' => [
         'path'   => '/vendor/tcg/voyager/assets',
-        'secure' => false,
+        'secure' => env('VOYAGER_SECURE_ASSETS', false),
     ],
 
     /*
